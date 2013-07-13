@@ -34,8 +34,8 @@ app.get("/index", function(req, res) {
   res.render("index.jade"); 
 });
 
-app.get("/send", function(req, res) {
-  res.render("index.jade");
+app.get("/", function(req, res) { 
+  res.render("index.jade"); 
 });
 
 app.post("/send", function(req, res) {
